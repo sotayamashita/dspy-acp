@@ -4,7 +4,6 @@
 - `src/dspy_acp/`: Core package implementation (e.g., `adapter.py`).
 - `examples/`: Usage samples (see `examples/basic_usage.py`).
 - `README.md`: User-facing overview and setup.
-- `spec.md`: Protocol and architecture details.
 - Tests are not yet present; add them under `tests/` when introduced.
 
 ## Build, Test, and Development Commands
@@ -17,7 +16,7 @@
 - `uv run pytest`: Run tests (once `tests/` exists).
 
 ## Coding Style & Naming Conventions
-- Python 3.10+ with type hints; keep signatures explicit.
+- Python 3.10+ (current dev: 3.13) with type hints; keep signatures explicit.
 - Indentation: 4 spaces; follow PEP 8.
 - Naming: `snake_case` for functions/vars, `CapWords` for classes, `_leading_underscore` for internal helpers.
 - Prefer short, focused docstrings for public classes/methods.
@@ -30,9 +29,9 @@
 ## Commit & Pull Request Guidelines
 - No established commit convention yet; use concise, imperative subjects (e.g., “Add ACP session reset”).
 - PRs should include a short summary, testing status, and any user-facing changes.
-- If behavior changes, update `README.md` and `spec.md` as needed.
+- If behavior changes, update `README.md` as needed.
 
 ## Configuration & Security Notes
 - Authentication can rely on env vars (`OPENAI_API_KEY`, `CODEX_API_KEY`) or browser login.
-- Default backend uses `npx @zed-industries/codex-acp`; ensure Node.js is available.
+- Codex preset uses `npx @zed-industries/codex-acp`; ensure Node.js is available when using it.
 - Do not commit credentials or auth tokens.

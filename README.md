@@ -4,6 +4,8 @@ DSPy adapter for [ACP (Agent Client Protocol)](https://github.com/agentclientpro
 
 This library provides a seamless integration between [DSPy](https://github.com/stanfordnlp/dspy) and ACP-compatible agents, enabling you to use DSPy's powerful prompt optimization and evaluation capabilities with any ACP agent.
 
+> Note: This is an experimental implementation and may change without notice.
+
 ## Installation
 
 ```bash
@@ -63,6 +65,17 @@ lm = ACPAdapter(command=["path/to/your-acp-agent"])
 ```
 
 The `auth_method` value is defined by the selected ACP agent.
+
+## Codex Models (Examples)
+
+Codex CLI supports multiple models. Representative options include:
+
+- `gpt-5.1-codex-max`
+- `gpt-5.1-codex-mini`
+- `gpt-5.2`
+
+For the latest list, see the official Codex models page:
+[https://developers.openai.com/codex/models](https://developers.openai.com/codex/models)
 
 ## How It Works
 

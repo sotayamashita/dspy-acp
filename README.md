@@ -9,7 +9,7 @@ This library provides a seamless integration between [DSPy](https://github.com/s
 ## Installation
 
 ```bash
-uv add dspy-acp
+uv add git+https://github.com/sotayamashita/dspy-acp
 ```
 
 ## Prerequisites

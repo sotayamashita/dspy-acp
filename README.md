@@ -1,10 +1,10 @@
 # dspy-acp
 
+> Note: This is an experimental implementation and may change without notice.
+
 DSPy adapter for [ACP (Agent Client Protocol)](https://github.com/agentclientprotocol/agent-client-protocol) agents.
 
 This library provides a seamless integration between [DSPy](https://github.com/stanfordnlp/dspy) and ACP-compatible agents, enabling you to use DSPy's powerful prompt optimization and evaluation capabilities with any ACP agent.
-
-> Note: This is an experimental implementation and may change without notice.
 
 ## Installation
 
